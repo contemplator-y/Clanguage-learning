@@ -1,0 +1,4 @@
+﻿  源.c
+d:\git下载上传\clanguage-learning\删除子串\删除子串\源.c(12): warning C4090: “初始化”: 不同的“const”限定符
+d:\git下载上传\clanguage-learning\删除子串\删除子串\源.c(23): warning C4090: “=”: 不同的“const”限定符
+  删除子串.vcxproj -> D:\Git下载上传\Clanguage-learning\删除子串\Debug\删除子串.exe
