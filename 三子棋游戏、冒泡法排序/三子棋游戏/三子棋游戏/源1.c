@@ -183,11 +183,6 @@ void Game(char chessBroad[MAX_ROW][MAX_COL])
 			printf("恭喜你,你赢了!\n");
 			return;
 		}
-		else if (tmp == 'o')
-		{
-			printf("你真菜,电脑都下不过!\n");
-			return;
-		}
 		else if (tmp == 'h')
 		{
 			printf("你真菜,和电脑五五开!\n");
@@ -197,20 +192,9 @@ void Game(char chessBroad[MAX_ROW][MAX_COL])
 		computerMove(chessBroad);
 		
 		 tmp = checkWin(chessBroad);
-		if (tmp == 'x')
-		{
-
-			printf("恭喜你,你赢了!\n");
-			return;
-		}
-		else if (tmp == 'o')
+		 if (tmp == 'o')
 		{
 			printf("你真菜,电脑都下不过!\n");
-			return;
-		}
-		else if (tmp == 'h')
-		{
-			printf("你真菜,和电脑五五开!\n");
 			return;
 		}
 	}
