@@ -9,14 +9,14 @@
 
 void Reverse_string(char* string)
 {
-	//逆序遍历
-	//将当前所指向的字符插入到函数返回字符串的后面
-	if (*(string + 1) != '\0')
+	//1.逆序遍历原字符串
+	//2.将当前所指向的字符插入到已倒转字符串的后面
+	if (*(string + 1))
 	{
 		Reverse_string(string + 1);
 	}
 	char c = *string;
-	while (*(string + 1) != '\0')
+	while (*(string + 1))
 	{
 		*string = *(string + 1);
 		string++;
@@ -27,7 +27,7 @@ void Reverse_string(char* string)
 
 int main()
 {
-	char str[] = "abcdef";
+	char str[] = "caixukun";
 	printf("%s\n", str);
 
 	Reverse_string(str);
