@@ -10,9 +10,10 @@
 
 void integerResolve(int n,int k,int start,int ord,int ans,int* tar)
 {										//n为待分解的整数,k为分解的份数,
-	if (k <= 0)							//start用于调整每层虚幻
+	if (k <= 0)							//start用于调整每层循环起始点。tar数组用来保存一次分解的结果
+										//ord用来调节每层循环存入tar的位置
 	{
-		if (ans == n)
+		if (ans == n) // 打印一次分解结果
 		{
 			for (int i = 0; i < ord; i++)
 			{
@@ -22,7 +23,6 @@ void integerResolve(int n,int k,int start,int ord,int ans,int* tar)
 		}
 		return;
 	}
-
 	for (int i = start; i <= n; i++) 
 	{							
 		*(tar + ord) = i;
