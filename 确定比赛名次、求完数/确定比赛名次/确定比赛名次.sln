@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "确定比赛名次", "确定比赛名次\确定比赛名次.vcxproj", "{DB4BE3C5-CB29-4BA1-A6CE-5F02902FBDD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB4BE3C5-CB29-4BA1-A6CE-5F02902FBDD1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB4BE3C5-CB29-4BA1-A6CE-5F02902FBDD1}.Debug|Win32.Build.0 = Debug|Win32
+		{DB4BE3C5-CB29-4BA1-A6CE-5F02902FBDD1}.Release|Win32.ActiveCfg = Release|Win32
+		{DB4BE3C5-CB29-4BA1-A6CE-5F02902FBDD1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
