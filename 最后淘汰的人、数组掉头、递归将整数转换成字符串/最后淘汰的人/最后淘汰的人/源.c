@@ -5,6 +5,8 @@
 /*
 **n个人围坐一圈，1-3报数，报到3的人退出，求最后一个人。
 */
+
+#define N 7
 int find(int* arr, int n, int tar)
 {
 	for (int i = 0; i < n; i++)
@@ -37,25 +39,33 @@ void printArr(int* arr, int n)
 }
 int main()
 {
-	int arr[5] = { 0 };
+	int arr[N] = { 0 };
 	int i = 1;
 	int j = 0;
-	while (sum(arr, 5) < 4)
+	while (sum(arr, N) < N - 2)
 	{
 		i++;
-		j++;
-		if (j == 5)
+		while (1)
 		{
-			j = 0;
+			j++;
+			if (j == N)
+			{
+				j = 0;
+			}
+			if (*(arr + j) == 0)
+			{
+				break;
+			}
 		}
+		
 		if (i == 3)
 		{
 			i = 0;
 			*(arr + j) = 1;
-			printArr(arr, 5);
+			printArr(arr, N);
 		}
 	}
-	int tmp = find(arr, 5, 0);
+	int tmp = find(arr, N, 0);
 	printf("%d\n", tmp);
 	system("pause");
 	return 0;
