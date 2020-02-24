@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "比较字符串最小字母出现频次", "比较字符串最小字母出现频次\比较字符串最小字母出现频次.vcxproj", "{F34EFD22-28A6-420D-B51D-C871C45546AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F34EFD22-28A6-420D-B51D-C871C45546AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F34EFD22-28A6-420D-B51D-C871C45546AB}.Debug|Win32.Build.0 = Debug|Win32
+		{F34EFD22-28A6-420D-B51D-C871C45546AB}.Release|Win32.ActiveCfg = Release|Win32
+		{F34EFD22-28A6-420D-B51D-C871C45546AB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
