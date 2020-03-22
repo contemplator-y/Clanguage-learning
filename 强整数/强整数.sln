@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "强整数", "强整数\强整数.vcxproj", "{E3E2BC8F-1BF7-476B-AE76-D460DB3FCF67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3E2BC8F-1BF7-476B-AE76-D460DB3FCF67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3E2BC8F-1BF7-476B-AE76-D460DB3FCF67}.Debug|Win32.Build.0 = Debug|Win32
+		{E3E2BC8F-1BF7-476B-AE76-D460DB3FCF67}.Release|Win32.ActiveCfg = Release|Win32
+		{E3E2BC8F-1BF7-476B-AE76-D460DB3FCF67}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
